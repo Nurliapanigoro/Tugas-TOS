@@ -26,7 +26,11 @@ class SegitigaAngka {
   }
 }
 
+
+// langkah 3
+
 // langkah 2
+
 
 import java.util.Scanner;
    
@@ -39,7 +43,11 @@ class SegitigaAngka {
     System.out.println("===================================");
     System.out.println();
      
+
+    int tinggi_segitiga,i,j,k = 0;
+
     int tinggi_segitiga,i,j;
+
   
     System.out.print("Input tinggi segitiga: ");
     tinggi_segitiga = input.nextInt();
@@ -48,7 +56,12 @@ class SegitigaAngka {
     
     for(i=1; i<=tinggi_segitiga; i++) {
       for(j=1; j<=i; j++) {
+
+        k++;
+        System.out.print(k+" ");
+
         System.out.print(j+" ");
+
       }
       System.out.println();
     }
